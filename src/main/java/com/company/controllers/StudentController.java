@@ -82,6 +82,14 @@ public class StudentController {
 
         }
 
+        System.out.println("Do you wish to add any other student's scores? Print 1 for yes or 2 for no: ");
+        int answer = scanner.nextInt();
+        if (answer == 1){
+            StudentController.addScores();
+        }else {
+            System.out.println("You have finished inputting the data. Please close the program!");
+        }
+
     }
 
     public static void removeStudent() {

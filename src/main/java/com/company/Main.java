@@ -14,9 +14,9 @@ public class Main {
 
 //        System.out.println(Login.login() ? "Successfully logged in" : "Failed to login. Username or password is incorrect.");
 
-//        StudentController.addScores();
+        StudentController.addScores();
 
-        StudentController.removeStudent();
+//        StudentController.removeStudent();
 
 //        StudentController.editStudent();
 
@@ -24,7 +24,7 @@ public class Main {
 }
 
 //Assignment
-// Add methods to remove a student's score, edit a student's score and edit student's details.
+// Add methods to remove a student's score, edit a student's score.
 
 
 
